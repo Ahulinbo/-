@@ -1,0 +1,116 @@
+body, html, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.vs {
+  position: relative;
+  width: 100%;
+}
+
+.vs .content-fourth img {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.vs .vs-header {
+  position: absolute;
+  top: 0.05rem;
+  left: 0.15rem;
+  z-index: 999;
+  width: 0.35rem;
+  height: 0.35rem;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.vs .vs-header .vs-i {
+  width: 0.25rem;
+  height: 0.25rem;
+  border-radius: 50%;
+  font-size: 0.25rem;
+  border: 1px solid white;
+  background-color: white;
+  text-align: center;
+  margin-top: 0.04rem;
+  margin-left: 0.04rem;
+}
+
+.vs .one {
+  width: 100%;
+}
+
+.vs .one img {
+  width: 3.75rem;
+  height: 3.75rem;
+}
+
+.vs .nav {
+  width: 3.5rem;
+  height: 1.21rem;
+  border-bottom: 0.1rem solid #efefef;
+  padding-left: 0.15rem;
+}
+
+.vs .nav p:nth-child(1) {
+  margin-top: 0.05rem;
+}
+
+.vs .nav p:nth-child(2) {
+  margin-top: 0.15rem;
+  font-size: 0.14rem;
+  color: #ccc;
+}
+
+.vs .nav p:nth-child(3) {
+  margin-top: 0.15rem;
+}
+
+.vs .nav p:nth-child(3) .span1 {
+  color: red;
+  font-size: 0.14rem;
+}
+
+.vs .nav p:nth-child(3) .span2 {
+  color: red;
+  font-size: 0.16rem;
+}
+
+.vs .nav p:nth-child(3) .span3 {
+  margin-left: 0.15rem;
+  font-size: 0.14rem;
+  color: #ccc;
+}
+
+.vs .nav p:nth-child(3) .span4 {
+  margin-left: 1.2rem;
+  font-size: 0.14rem;
+  color: #ccc;
+}
+
+.vs .content-box {
+  display: flex;
+}
+
+.vs .content-box .content-left {
+  width: 50%;
+  height: 0.44rem;
+  text-align: center;
+  line-height: 0.44rem;
+}
+
+.vs .content-box .content-left:hover {
+  border-bottom: 0.03rem solid red;
+}
+
+.vs .content-box .content-right {
+  width: 50%;
+  height: 0.44rem;
+  text-align: center;
+  line-height: 0.44rem;
+}
+
+.vs .content-box .content-right:hover {
+  border-bottom: 0.03rem solid red;
+}

@@ -1,0 +1,68 @@
+body, html, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.fenlei .fenlei-header {
+  width: 3.75rem;
+  height: 0.41rem;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid #efefef;
+  z-index: 999;
+}
+
+.fenlei .fenlei-header .txt {
+  width: 2.4rem;
+  height: 0.25rem;
+  outline: none;
+  border: none;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  padding-left: 0.25rem;
+  margin-top: 0.08rem;
+  margin-left: 0.08rem;
+  font-size: 0.12rem;
+}
+
+.fenlei .fenlei-box {
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+.fenlei .fenlei-box .fenlei-left {
+  width: 0.95rem;
+  height: 5.56rem;
+  border-right: 0.01rem solid #ccc;
+}
+
+.fenlei .fenlei-box .fenlei-left .fenlei-left-ul li {
+  width: 0.94rem;
+  height: 0.35rem;
+  line-height: 0.35rem;
+  text-align: center;
+}
+
+.fenlei .fenlei-box .fenlei-left .fenlei-left-ul li:hover {
+  border-left: 0.02rem solid red;
+  color: red;
+}
+
+.fenlei .fenlei-box .one {
+  width: 2.64rem;
+  height: 0.98rem;
+  margin-left: 0.08rem;
+}
+
+.fenlei .fenlei-box .one img {
+  width: 2.64rem;
+  height: 0.98rem;
+}
+
+.fenlei .fenlei-box .fenlei-right {
+  width: 100%;
+  height: 100%;
+}

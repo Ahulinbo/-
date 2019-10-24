@@ -1,0 +1,101 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.Qmkj .Qmkj-header {
+  width: 3.45rem;
+  height: 0.53rem;
+  border-bottom: 0.01rem solid #efefef;
+  display: flex;
+  padding-left: 0.3rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: white;
+}
+
+.Qmkj .Qmkj-header .Qmkj-one {
+  font-size: 0.25rem;
+  line-height: 0.25rem;
+  margin-top: 50%;
+}
+
+.Qmkj .Qmkj-header .kj {
+  margin-left: 1.1rem;
+  margin-top: 0.16rem;
+}
+
+.Qmkj .smallbox {
+  align-content: center;
+  margin-top: 0.5rem;
+}
+
+.Qmkj .smallbox img {
+  width: 1.1289rem;
+  height: 1.1289rem;
+  border-radius: 10px;
+  margin-top: 0.2rem;
+  margin-left: 0.08rem;
+}
+
+.Qmkj .smallbox .right .smallbox-right-one {
+  font-size: 0.1rem;
+  color: #ccc;
+  margin-left: 0.1rem;
+  margin-top: 0.1rem;
+}
+
+.Qmkj .smallbox .smallbox-one {
+  width: 3.75rem;
+  height: 1.61rem;
+  border-bottom: 1px solid #d4c2c2;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Qmkj .smallbox .smallbox-one .smallbox-right {
+  height: 0.19rem;
+  margin-left: 0.1rem;
+  margin-top: 0.2rem;
+  font-size: 0.14rem;
+}
+
+.Qmkj .smallbox .smallbox-one .smallbox-right-two {
+  display: flex;
+}
+
+.Qmkj .smallbox .smallbox-one .smallbox-right-two .size {
+  width: 0.8145rem;
+  height: 0.48rem;
+  margin-top: 0.2rem;
+  border-right: 1px solid #cccc;
+}
+
+.Qmkj .smallbox .smallbox-one .smallbox-right-two .size .size1 {
+  color: red;
+  font-weight: 900;
+  font-size: 0.14rem;
+  text-align: center;
+}
+
+.Qmkj .smallbox .smallbox-one .smallbox-right-two .size .size2 {
+  font-size: 0.12rem;
+  text-align: center;
+}
+
+.Qmkj .smallbox .smallbox-one .smallbox-right-two .size .size3 {
+  font-size: 0.12rem;
+  text-align: center;
+  color: #ccc;
+}
+
+.Qmkj .smallbox .smallbox-one .smallbox-right-two .size .size4 {
+  color: #ccc;
+  font-size: 0.12rem;
+  text-align: center;
+}

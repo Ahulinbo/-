@@ -1,0 +1,55 @@
+body, html, ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.Jxzt .Jxzt-header {
+  width: 100%;
+  height: 0.528rem;
+  display: flex;
+  line-height: 0.5rem;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.Jxzt .Jxzt-size {
+  font-size: 0.25rem;
+  margin-top: 0.15rem;
+  margin-left: 0.15rem;
+}
+
+.Jxzt .Jxzt-first {
+  margin-left: 1.15rem;
+}
+
+.Jxzt .Jxzt-content {
+  margin-top: 0.5rem;
+  padding: 0.05rem;
+}
+
+.Jxzt .Jxzt-content .Jxzt-content-one {
+  position: relative;
+}
+
+.Jxzt .Jxzt-content .Jxzt-content-one img {
+  width: 3.6rem;
+  height: 1.85rem;
+}
+
+.Jxzt .Jxzt-content .Jxzt-content-one .aa {
+  position: absolute;
+  top: 0.5rem;
+  color: white;
+}
+
+.Jxzt .Jxzt-content .Jxzt-content-one .Jxzt-text {
+  margin-left: 0.3rem;
+  font-size: 0.18rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

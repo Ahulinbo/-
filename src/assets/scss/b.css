@@ -1,0 +1,46 @@
+body, html, ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.b .b-header {
+  width: 3.75rem;
+  height: 0.53rem;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: flex;
+  border-bottom: 1px solid #efefef;
+}
+
+.b .b-header .b-a {
+  line-height: 0.53rem;
+  text-align: center;
+  margin-left: 1.3rem;
+}
+
+.b .b-header .vs-i {
+  font-size: 0.25rem;
+  text-align: center;
+  line-height: 0.53rem;
+}
+
+.b .b-index {
+  margin-top: 0.55rem;
+}
+
+.b img {
+  width: 3.5rem;
+  height: 2.24rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.b .div-text {
+  text-align: left;
+  font-size: 0.14rem;
+  margin: 0 auto;
+}

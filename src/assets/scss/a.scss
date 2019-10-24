@@ -1,0 +1,108 @@
+body,html,ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.vs{
+    position: relative;
+    width: 100%;
+    .content-fourth{
+        // float: left;
+        // display: block;
+        // display: flex;
+        img{
+            width: 100% !important;
+            height: 100% !important;
+            
+        }
+    }
+    .vs-header{
+        position: absolute;
+        top: 0.05rem;
+        left: 0.15rem;
+        z-index: 999;
+        width: 0.35rem;
+        height: 0.35rem;
+        border: 1px solid white;
+        border-radius: 50%;
+        .vs-i{
+            width: 0.25rem;
+            height: 0.25rem;
+            border-radius: 50%;
+            font-size: 0.25rem;
+            border: 1px solid white;
+            background-color: white;
+            text-align: center;
+            margin-top: 0.04rem;
+            margin-left: 0.04rem;
+        }
+    }
+    .one{
+        width: 100%;
+        // height: 100%;
+        img{
+            width: 3.75rem;
+            height: 3.75rem;
+        }
+    }
+    .nav{
+        width: 3.5rem;
+        height: 1.21rem;
+        // border: 1px solid black;
+        // margin-left: 0.15rem;
+        border-bottom: 0.1rem solid #efefef;
+        padding-left: 0.15rem;
+
+        p:nth-child(1){
+        margin-top: 0.05rem;
+        }
+        p:nth-child(2){
+        margin-top: 0.15rem;
+        font-size: 0.14rem;
+        color: #ccc;
+        }
+        p:nth-child(3){
+        margin-top: 0.15rem;
+        .span1{
+            color: red;
+            font-size: 0.14rem;
+        }
+        .span2{
+            color: red;
+            font-size: 0.16rem;
+        }
+        .span3{
+            // display: inline-block;
+            margin-left: 0.15rem;
+            font-size: 0.14rem;
+            color: #ccc;
+        }
+        .span4{
+            margin-left: 1.2rem;
+            font-size: 0.14rem;
+            color: #ccc;
+        }
+        }
+    }
+    .content-box{
+        display: flex;
+        .content-left{
+            width: 50%;
+            height: 0.44rem;
+            text-align: center;
+            line-height: 0.44rem;
+        }
+        .content-left:hover{
+            border-bottom: 0.03rem solid red;
+        }
+        .content-right{
+            width: 50%;
+            height: 0.44rem;
+            text-align: center;
+            line-height: 0.44rem;
+        }
+        .content-right:hover{
+            border-bottom: 0.03rem solid red;
+        }
+    }
+}
