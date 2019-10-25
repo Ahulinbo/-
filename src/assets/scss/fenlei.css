@@ -39,6 +39,18 @@ body, html, ul, li {
   border-right: 0.01rem solid #ccc;
 }
 
+.fenlei .fenlei-box .fenlei-left .abc {
+  width: 0.94rem;
+  height: 0.35rem;
+  line-height: 0.35rem;
+  text-align: center;
+}
+
+.fenlei .fenlei-box .fenlei-left .abc:hover {
+  border-left: 0.02rem solid red;
+  color: red;
+}
+
 .fenlei .fenlei-box .fenlei-left .fenlei-left-ul li {
   width: 0.94rem;
   height: 0.35rem;
@@ -65,4 +77,20 @@ body, html, ul, li {
 .fenlei .fenlei-box .fenlei-right {
   width: 100%;
   height: 100%;
+}
+
+.fenlei .fenlei-box .ul1 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.fenlei .fenlei-box .ul1 .li1 {
+  width: 33.3%;
+}
+
+.fenlei .fenlei-box .ul1 .li1 img {
+  width: 0.7927rem;
+  height: 0.7927rem;
 }

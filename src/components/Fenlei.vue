@@ -6,7 +6,8 @@
     </div>
     <div class="fenlei-box">
       <div class="fenlei-left">
-        <!-- <div>所有分类</div> -->
+        <div class="abc" @click="abc">所有分类</div>
+
         <ul class="fenlei-left-ul" v-for="(image, index) in list" :key="index">
           <li @click="cid(image.id)">{{image.name}}</li>
         </ul>
@@ -21,15 +22,20 @@
           </van-swipe>
         </div>
         <div>
-          <ul v-for="(item,index) in lest" :key="index">
-            <li>
+          <ul v-for="(item,index) in lest" :key="index" v-show="shows" class="ul1">
+            <li class="li1">
+              <img :src="item.icon" alt />
+            </li>
+          </ul>
+        </div>
+        <div class="div1">
+          <ul class="ul1">
+            <li class="li1" v-for="(item,index) in hu" :key="index">
               <img :src="item.icon" alt />
             </li>
           </ul>
         </div>
       </div>
-      <!-- 111111111111111111 -->
-      <!-- </div> -->
     </div>
   </div>
 </template>
@@ -47,7 +53,10 @@ export default {
     return {
       images: [],
       list: [],
-      lest: []
+      lest: [],
+      hu: [],
+      lin: [],
+      shows: true
     };
   },
   //监听属性 类似于data概念
@@ -57,11 +66,22 @@ export default {
   //方法集合
   methods: {
     cid(n) {
-      console.log(n);
+      //   console.log(n);
       let a = this.images.filter(item => {
         return item.pid == n;
       });
-      console.log(a);
+      //   console.log(a);
+      this.hu = a;
+      this.shows = false;
+    },
+    abc() {
+      axios
+        .post("https://api.it120.cc/small4/shop/goods/category/all")
+        .then(res => {
+          //   console.log(res.data);
+          this.lin = res.data.data;
+        });
+      this.shows = true;
     }
   },
   //生命周期 - 创建完成（可以访问当前this实例）
@@ -69,7 +89,7 @@ export default {
     axios
       .post("https://api.it120.cc/small4/shop/goods/category/all")
       .then(res => {
-        console.log(res.data.data);
+        // console.log(res.data.data);
         this.images = res.data.data;
         this.list = res.data.data.filter(item => {
           return item.pid == 0;
