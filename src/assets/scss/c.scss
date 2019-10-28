@@ -1,0 +1,160 @@
+body,html,ul,li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.c{
+
+    .vs-header{
+        position: absolute;
+        top: 0.05rem;
+        left: 0.15rem;
+        z-index: 999;
+        width: 0.35rem;
+        height: 0.35rem;
+        border: 1px solid white;
+        border-radius: 50%;
+        .vs-i{
+            width: 0.25rem;
+            height: 0.25rem;
+            border-radius: 50%;
+            font-size: 0.25rem;
+            border: 1px solid white;
+            background-color: white;
+            text-align: center;
+            margin-top: 0.04rem;
+            margin-left: 0.04rem;
+        }
+    }   
+    .lunbo{
+        .imga{
+            width: 3.75rem;
+            height: 3.75rem;
+        }
+    }
+    .content{
+        img{
+            width: 100% !important;
+            height: 100% !important;
+        }
+    }
+    .footer-car{
+        width: 3.75rem;
+        height: 0.5rem;
+        background-color: white;
+        position: fixed;
+        z-index: 999;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        line-height: 0.5rem;
+    }
+ 
+    .add-ul{
+        width: 3.75rem;
+        height: 4.5rem;
+        background: white;
+        // opacity: 0.9;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        // display: flex;
+        .var{
+            width: 3.75rem;
+            height: 0.5rem;
+            background-color: #b7282e;
+            color: #fff;
+            text-align: center;
+            line-height: 0.5rem;
+            margin-top: 0.25rem;
+        }
+        .a{
+            display: flex;
+            flex-wrap: wrap;
+            border-bottom: 1px solid #ccc;
+            height: 2rem;
+            // text-align: center;
+            .li3{
+                // width: 1.2rem;
+                width: 40%;
+                height: 0.3rem;
+                border: 1px solid #ccc;
+                text-align: center;
+                line-height: 0.3rem;
+                margin-left: 0.25rem;
+                margin-top: 0.25rem;
+                
+                // display: flex;
+            }
+            .li3:hover{
+                color: #b7282e;
+                border: 1px solid #b7282e;
+            }
+        }
+        .li4{
+            .sl{
+                margin-left: 0.25rem;
+                margin-top: 0.15rem;
+               
+                // margin-left: 0.55rem;
+             .span5{
+                 margin-left: 1.6rem;
+                .inp1{
+                    width: 0.44rem;
+                    height: 0.33rem;
+                    text-align: center;
+                    
+                }
+             }
+            }
+        }
+        .li2{
+            margin-left: 0.25rem;
+            margin-top: 0.25rem;
+            margin-top: 1rem;
+        }
+       
+        .li1{
+            width: 3.642rem;
+            height: 0.8956rem;
+            // border: 1px solid black;
+            border-bottom: 1px solid #ccc;  
+            float: right;
+            display: flex;
+            .img1{
+                width: 0.614rem;
+                height: 0.614rem;
+                margin-top: 0.15rem;
+                margin-left: 0.14rem;
+            }
+            .zi1{
+                margin-left: 0.25rem;
+               margin-top: 0.15rem;
+               color: red;
+               font-weight: 900;
+            }
+           .zi{
+               margin-left: 0.25rem;
+               margin-top: 0.15rem;
+               .span1{
+                   display: inline-block;
+                   width: 0.25rem;
+                   height: 0.25rem;
+                   border: 1px solid #ccc;
+                   border-radius: 50%;
+                   text-align: center;
+                   line-height: 0.25rem;
+                   margin-left: 0.25rem;
+               }
+           }
+            .mar{
+                margin-top: 0.1rem;
+            }
+            .color{
+                color: red;
+                font-weight: 900;
+                margin-top: 0.2rem;
+            }
+        }
+    }
+}

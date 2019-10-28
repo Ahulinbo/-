@@ -1,7 +1,7 @@
 <!--  -->
 <template>
   <div class="fourth">
-    <Geren></Geren>4
+    <Geren></Geren>
     <Footer></Footer>
   </div>
 </template>

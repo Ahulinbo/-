@@ -160,18 +160,21 @@ body, html, ul, li {
   margin-left: 0.1rem;
 }
 
-.content .fu {
+.content .v-for {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
 }
 
-.content .fu .content-nav .imgimg {
-  width: 1.7rem;
+.content .v-for .v-item {
+  margin-left: 0.1rem;
+}
+
+.content .v-for .v-item img {
+  width: 1.71rem;
   height: 2.18rem;
 }
 
-.content .fu .content-nav .colo {
+.content .v-for .v-item .font {
   color: red;
   font-weight: 900;
 }

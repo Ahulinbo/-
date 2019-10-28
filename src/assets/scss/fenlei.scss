@@ -96,9 +96,26 @@ body,html,ul,li{
             // height: 1.12rem;
             // border: 1px solid black;
             // display: flex;
+            text-align: center;
             img{
                 width: 0.7927rem;
                 height: 0.7927rem;
+            }
+        }
+    }
+    .sy{
+        display: flex;
+        flex-wrap: wrap;
+        .sy-li1{
+            width: 33.3%;
+            // width: 0.89rem;
+            height: 1.12rem;
+            img{
+                width: 0.7927rem;
+                height: 0.7927rem;
+            }
+            div{
+                text-align: center;
             }
         }
     }

@@ -25,7 +25,7 @@
           <img src="../assets/img/2.jpg" alt />
           <div>礼券</div>
         </router-link>
-        <router-link to="/Kjia" tag="li">
+        <router-link to="/Qmkj" tag="li">
           <img src="../assets/img/3.jpg" alt />
           <div>砍价</div>
         </router-link>
@@ -103,13 +103,19 @@
       人气推荐
       <van-icon name="play-circle-o" />
     </div>
-    <router-link to="'/c/'+item.id"></router-link>
-    <div class="fu">
-      <div class="content-nav" v-for="(item,index) in second1" :key="index">
-        <img :src="item.pic" alt class="imgimg" />
-        <div class="colo">￥{{item.pingtuanPrice}}</div>
-      </div>
+    <div class="v-for">
+      <router-link
+        :to="'/c/'+item.id"
+        tag="div"
+        class="v-item"
+        v-for="(item,index) in second1"
+        :key="index"
+      >
+        <img :src="item.pic" alt />
+        <div class="font">￥{{item.pingtuanPrice}}</div>
+      </router-link>
     </div>
+
     <!-- 人气推荐下边四个结束 -->
   </div>
 </template>

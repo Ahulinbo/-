@@ -9,6 +9,7 @@ import Vant from 'vant';
 import 'vant/lib/index.css';
 import { Icon } from 'vant';
 import { Swipe, SwipeItem } from 'vant';
+import store from '../src/store/index'
 
 Vue.use(Swipe).use(SwipeItem);
 
@@ -22,6 +23,7 @@ Vue.use(ElementUI);
 new Vue({
     el: '#app',
     router,
+    store,
     components: { App },
     template: '<App/>'
 })

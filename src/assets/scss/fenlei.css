@@ -88,9 +88,29 @@ body, html, ul, li {
 
 .fenlei .fenlei-box .ul1 .li1 {
   width: 33.3%;
+  text-align: center;
 }
 
 .fenlei .fenlei-box .ul1 .li1 img {
   width: 0.7927rem;
   height: 0.7927rem;
+}
+
+.fenlei .fenlei-box .sy {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fenlei .fenlei-box .sy .sy-li1 {
+  width: 33.3%;
+  height: 1.12rem;
+}
+
+.fenlei .fenlei-box .sy .sy-li1 img {
+  width: 0.7927rem;
+  height: 0.7927rem;
+}
+
+.fenlei .fenlei-box .sy .sy-li1 div {
+  text-align: center;
 }

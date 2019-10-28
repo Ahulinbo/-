@@ -156,21 +156,26 @@ body,html,ul,li{
             margin-left: 0.1rem;
         }
     }
-    .fu{
+    .v-for{
         display: flex;
+        // width: 50%;
+        // height: 2.5rem;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        // width: 50%;
+        .v-item{
+        margin-left: 0.1rem;
 
-        .content-nav{
-            .imgimg{
-                width: 1.7rem;
+            img{
+                width: 1.71rem;
+                // width: 50%;
                 height: 2.18rem;
             }
-            .colo{
+            .font{
                 color: red;
                 font-weight: 900;
             }
         }
+        
     }
   
 }

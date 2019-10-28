@@ -22,9 +22,10 @@
           </van-swipe>
         </div>
         <div>
-          <ul v-for="(item,index) in lest" :key="index" v-show="shows" class="ul1">
-            <li class="li1">
+          <ul class="sy">
+            <li class="sy-li1" v-for="(item,index) in lest" :key="index" v-show="shows">
               <img :src="item.icon" alt />
+              <div>{{item.name}}</div>
             </li>
           </ul>
         </div>
@@ -32,6 +33,7 @@
           <ul class="ul1">
             <li class="li1" v-for="(item,index) in hu" :key="index">
               <img :src="item.icon" alt />
+              <div>{{item.name}}</div>
             </li>
           </ul>
         </div>
@@ -55,7 +57,6 @@ export default {
       list: [],
       lest: [],
       hu: [],
-      lin: [],
       shows: true
     };
   },
@@ -75,12 +76,6 @@ export default {
       this.shows = false;
     },
     abc() {
-      axios
-        .post("https://api.it120.cc/small4/shop/goods/category/all")
-        .then(res => {
-          //   console.log(res.data);
-          this.lin = res.data.data;
-        });
       this.shows = true;
     }
   },

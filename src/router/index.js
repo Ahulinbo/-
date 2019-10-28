@@ -12,6 +12,9 @@ import Qmkj from '../components/Qmkj'
 import Jxzt from '../components/Jxzt'
 import a from '../components/a'
 import b from '../components/b'
+import c from '../components/c'
+import Denglu from '../components/Denglu'
+import Zhuce from '../components/Zhuce'
 
 Vue.use(Router)
 
@@ -43,10 +46,6 @@ export default new Router({
             name: "Ljuan",
             component: Ljuan
         }, {
-            path: "/Kjia",
-            name: "Kjia",
-            component: Kjia
-        }, {
             path: "/Zlan",
             name: "Zlan",
             component: Zlan
@@ -66,6 +65,20 @@ export default new Router({
             path: '/b/:id?',
             name: 'b',
             component: b
+        }, {
+            path: "/c/:id?",
+            name: "c",
+            component: c
+        },
+        {
+            path: "/denglu",
+            name: "Denglu",
+            component: Denglu
+        },
+        {
+            path: '/Zhuce',
+            name: "Zhuve",
+            component: Zhuce
         }
     ]
 })
