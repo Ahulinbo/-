@@ -8,8 +8,24 @@ const store = new Vuex.Store({
     },
     mutations: {
         name(state, n) {
-            state.name.push(n)
+            let obj = state.name.findIndex(v => {
+                console.log(v)
+                return v.name == n.name
+            })
+            console.log(obj)
+            if (obj == -1) {
+                state.name.push(n)
+            } else {
+                n.num++
+            }
+
             // console.log(n)
+        },
+        ming(state, i) {
+            state.name.map(item => {
+                // console.log(item)
+                item.check = i;
+            })
         }
     }
 })

@@ -62,4 +62,20 @@ body,html,ul,li{
             }
         }
     }
+    .Gwcar-ul{
+        width: 3.75rem;
+        height: 0.51rem;
+        position: fixed;
+        background-color: white;
+        bottom: 0.6rem;
+        left:0;
+        display: flex;
+        line-height: 0.51rem;
+        li:nth-child(2){
+            margin-left: 1.2rem;
+        }
+        li:nth-child(3){
+            margin-left: 0.8rem;
+        }
+    }
 }

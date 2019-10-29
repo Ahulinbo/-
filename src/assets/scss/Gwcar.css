@@ -70,3 +70,22 @@ body, html, ul, li {
 .Gwcar .Gwcar-content .box .box-one .box-one-2 {
   margin-top: 0.25rem;
 }
+
+.Gwcar .Gwcar-ul {
+  width: 3.75rem;
+  height: 0.51rem;
+  position: fixed;
+  background-color: white;
+  bottom: 0.6rem;
+  left: 0;
+  display: flex;
+  line-height: 0.51rem;
+}
+
+.Gwcar .Gwcar-ul li:nth-child(2) {
+  margin-left: 1.2rem;
+}
+
+.Gwcar .Gwcar-ul li:nth-child(3) {
+  margin-left: 0.8rem;
+}

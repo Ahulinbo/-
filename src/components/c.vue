@@ -109,10 +109,14 @@ export default {
         name: this.name,
         image: this.images,
         ss: this.fifth,
-        dd: this.seventh
+        dd: this.seventh,
+        check: false,
+        num: this.num,
+        qian: this.sixth
       };
       this.xiaoshi = false;
-      if (obj.name == "" || obj.image == "") {
+      if (this.name == "") {
+        alert("请选择尺码");
         return false;
       } else {
         this.$store.commit("name", obj);
